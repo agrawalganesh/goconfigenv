@@ -1,0 +1,4 @@
+github.com/iamganeshagrawal/goconfigenv v0.0.0-20210609140413-562ffcf3666f h1:PjJALgBP2lC5uUiqYurgOnGynIZO//t6HB/bshnjhwQ=
+github.com/iamganeshagrawal/goconfigenv v0.0.0-20210609140413-562ffcf3666f/go.mod h1:nnXnxzxo610Ay1NMb8YmKB9g0dnqqGwnXe/g4uZ/Xz8=
+github.com/joho/godotenv v1.3.0 h1:Zjp+RcGpHhGlrMbJzXTrZZPrWj+1vfm90La1wgB6Bhc=
+github.com/joho/godotenv v1.3.0/go.mod h1:7hK45KPybAkOC6peb+G5yklZfMxEjkZhHbwpqxOKXbg=
