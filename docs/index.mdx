@@ -1,0 +1,37 @@
+# goconfigenv
+
+Load Config Struct from environment variables (using struct tags).
+
+## Installation
+
+```go
+go get github.com/iamganeshagrawal/goconfigenv
+```
+
+## Example
+
+```go
+
+package main
+
+import (
+	"fmt"
+
+	"github.com/iamganeshagrawal/goconfigenv"
+)
+
+type Config struct {
+	Port   int    `configenv:"PORT"`
+	Secret string `configenv:"JWT_SECRET"`
+	HTTPS  bool   `configenv:"HTTPS"`
+}
+
+func main() {
+	var config Config
+	goconfigenv.Load(&config)
+	fmt.Println(config)
+}
+
+```
+
+
